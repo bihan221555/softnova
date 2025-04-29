@@ -1,0 +1,199 @@
+@font-face {
+    font-family: "valorant";
+    src: url("../fonts/valorant.ttf");
+  }
+
+@font-face {
+    font-family: "planet";
+    src: url("../fonts/PLANK___.TTF");
+  }
+
+header {
+    background-color:#007EA7;
+    width: 100%;
+    height: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    justify-content: left !important;
+    align-items: center;
+    display: flex
+    ;
+}
+
+.lista{
+    justify-content: flex-end !important;
+    display: flex;
+    display: inline;
+    align-items: center;
+}
+
+
+header img{
+    height: 4em;
+}
+
+
+header h3{
+    color: white;
+    margin: 1em;
+    font-family: "planet" ;
+}
+
+header li {
+    display: inline;
+    padding-right: 1em;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header a {
+    display: inline;
+    padding-right: 1em;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+a:hover {
+    color:#003459;
+  }
+
+.button:hover {
+
+    background-color: #003459;
+  }
+
+nav{
+    background-color: #E9F4F7;
+    height: 20em;
+    text-align: center;
+    align-content: center;
+}
+
+nav h1{
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav P{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+section{
+    height: 25em;
+    justify-content: space-evenly;
+    display: inline;
+    display: flex;
+    background-color: #FFFF;
+}
+
+.sobre{
+    height: 25em;
+    background-color: #E9F4F7;
+    align-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.sobre .escrita{
+    padding-top:3em;
+    width: 70%;
+}
+
+.sobre img{
+    height: 20em;
+    box-shadow: 5px 5px 5px black;
+    margin-left: 2em;
+    display: flex;
+    margin-top: 2.5em;
+}
+.sobre h2{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-weight: bold;  
+}
+.sobre p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+    margin-top: 1em;
+    background-color: #E9F4F7;
+    width: 35em;
+    height: 18em;
+    text-align: center;
+    align-content: center;
+    padding-top: 3em;
+    border: none;
+}
+
+.card img{
+    width: 5em;
+    margin: auto;
+}
+
+footer{
+    background-color: #00171F;
+    height: 137px;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+
+.form-container{
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    background-color: #003459;
+    color: #FFF;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form-container input{
+    border-radius: 0.5em;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5em; 
+}
+
+.form-container button{
+    background-color:#007EA7;
+    border-radius: 0.5em;
+    color: #FFF;
+    border: 2px solid #007EA7;
+    margin:auto;
+    margin-top: 0.5em;
+    transition-duration: 0.4s;
+ }
+
+ .form-container textarea{
+    border-radius: 0.5em;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    height: 26px;
+    width: 185px;
+ }
+
+ .contactForm{
+    justify-content: space-between;
+    display: flex;
+    align-content: center;
+ }
+
+
